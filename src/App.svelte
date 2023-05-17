@@ -1,8 +1,13 @@
 <script lang="ts">
-  import "./index.css";
-  import Counter from "./lib/Counter.svelte";
+  import Map from "./lib/Map.svelte";
+  import Multipont from "./lib/Multipont.svelte";
+
+  let show = false;
 </script>
 
-<main>
-  <Counter />
-</main>
+<Map>
+  {#if show}
+    <Multipont><h1>kid</h1></Multipont>
+  {/if}
+</Map>
+<button on:click={() => (show = !show)}>toggle</button>

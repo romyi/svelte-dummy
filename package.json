@@ -25,6 +25,7 @@
     "@emotion/css": "^11.11.0",
     "@tanstack/svelte-query": "^4.29.5",
     "fast-shuffle": "^6.0.1",
+    "ol": "^7.3.0",
     "radix-svelte": "^0.5.0"
   }
 }
